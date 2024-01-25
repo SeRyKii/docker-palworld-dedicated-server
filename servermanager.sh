@@ -4,6 +4,8 @@
 #set -e
 
 GAME_PATH="/palworld"
+ln -s /home/steam/.local/share/Steam/steamcmd/linux64/steamclient.so /home/steam/.steam/sdk64/
+ln -s /home/steam/.local/share/Steam/steamcmd/linux32/steamclient.so /home/steam/.steam/sdk32/
 
 function installServer() {
     # force a fresh install of all
